@@ -1,0 +1,139 @@
+* {
+    font-family: "Roboto Flex", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+
+    header {
+        .targe {
+            background-color: $dark_blue;
+
+            .targe-icons {
+                height: 35px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+
+                a {
+                    color: #fff;
+                    font-size: 0.8rem;
+                    text-decoration: none;
+
+                }
+
+                img {
+                    width: 14px;
+
+                }
+            }
+        }
+
+        .brand {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70px;
+            border-bottom: 1px solid #aaa;
+
+            img {
+                width: 130px;
+            }
+        }
+
+        nav {
+            height: 55px;
+            background-color: #fff;
+
+            ul {
+                list-style: none;
+                height: 55px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                li {
+                    padding: 30px;
+
+                    a {
+                        color: #333;
+                        font-weight: 700;
+                        text-decoration: none;
+                        display: flex;
+                        align-items: center;
+                        height: 55px;
+                        border-bottom: 3px solid #fff;
+                    }
+                }
+            }
+
+            a:hover {
+                color: $dark_blue;
+                border-bottom: 3px solid $dark_blue;
+            }
+        }
+    }
+
+    section {
+        .section-name {
+            font-size: 1.1rem;
+            color: $orange;
+            font-weight: 300;
+        }
+
+        .blue-title {
+            font-size: 3rem;
+            color: $dark_blue;
+            line-height: 50px;
+            padding: 20px 0;
+        }
+
+        .blue-text {
+            color: $dark_blue;
+            line-height: 20px;
+        }
+
+        .white-title {
+            font-size: 3rem;
+            color: #FFFFFF;
+            line-height: 50px;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        .white-text {
+            color: $dark_blue;
+            line-height: 20px;
+            color: #fff;
+        }
+
+        .button {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 425px;
+            height: 45px;
+            color: #fff;
+            font-size: 0.9rem;
+            border-radius: 50px;
+        }
+
+        .but-white {
+            border: 2px solid #FFF;
+        }
+
+        .but-blue {
+            background-color: $dark_blue;
+        }
+
+    }
+}
+
+
+
+@media (max-width: 991px) {}

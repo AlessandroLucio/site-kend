@@ -1,0 +1,32 @@
+.aboutUs {
+    background-color: $dark_blue;
+
+    .aboutUs-content {
+        padding: 0px;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+
+
+    }
+
+    .aboutUs-content-text {
+        width: 40%;
+        padding: 80px 70px 80px 0;        
+    }
+
+    .home-content_but{
+        padding-top: 25px;
+    }
+
+    .aboutUs-content-video {
+        width: 55%;
+        height: 100vh;
+        position: absolute;
+        right: 0;
+
+        video {
+            height: 100vh;
+        }
+    }
+}
