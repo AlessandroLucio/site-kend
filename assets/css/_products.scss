@@ -1,6 +1,8 @@
 .product-content {   
-    width: 100vw;
-    height: 600px;    
+    
+    height: 600px;
+    background-color: $dark_blue;
+    
 
     .product-content-text {
         width: 60%;
@@ -11,6 +13,7 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        
         
     }
 }
