@@ -112,13 +112,9 @@ body section .but-blue {
   width: 100vw;
   height: calc(100vh - 160px);
 }
-.home .top-image {
-  background-image: url("/assets/images/aerea_fabri.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.home .top-image img {
   width: 100vw;
-  height: 50%;
+  height: 40vh;
 }
 .home .home-content {
   display: flex;
@@ -164,19 +160,39 @@ body section .but-blue {
   height: 100vh;
 }
 
-.product-content {
-  width: 100vw;
-  height: 600px;
+.product {
+  margin: 0;
+  padding: 0;
 }
-.product-content .product-content-text {
+.product .product-content {
+  height: 80vh;
+  background-color: #ccc;
+}
+.product .product-content .product-content-text {
   width: 60%;
-  height: 250px;
+  height: 40%;
   padding: 0 100px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  background-color: #FFF;
+}
+.product .product-content .product-content-text .section-name {
+  padding-bottom: 30px;
+}
+.product .product-content .product-brands {
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+}
+.product .product-content .product-brands .techkend img {
+  width: 300px;
+}
+.product .product-content .product-brands .ecokend img {
+  width: 280px;
 }
 
 /*# sourceMappingURL=main.css.map */

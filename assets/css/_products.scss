@@ -1,19 +1,44 @@
-.product-content {   
-    
-    height: 600px;
-    background-color: $dark_blue;
-    
+.product {
+margin: 0;
+padding: 0;
+    .product-content {
+        height: 80vh;
+        background-color: #ccc;
+        
 
-    .product-content-text {
-        width: 60%;
-        height: 250px;        
-        padding: 0 100px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        
-        
+        .product-content-text {
+            width: 60%;
+            height: 40%;
+            padding: 0 100px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            background-color: #FFF;
+
+            .section-name {
+                padding-bottom: 30px;
+            }
+        }
+
+        .product-brands {
+            height: 60%;
+            display: flex;
+            
+            justify-content: center;
+            background-color: aqua;
+
+            .techkend{
+                img{
+                    width: 300px;
+                }                
+            }
+            .ecokend{
+                img{
+                    width: 280px;
+                }                
+            }
+        }
     }
 }
