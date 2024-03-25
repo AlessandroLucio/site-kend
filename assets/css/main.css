@@ -115,6 +115,7 @@ body section .but-blue {
 .home .top-image img {
   width: 100vw;
   height: 40vh;
+  object-fit: cover;
 }
 .home .home-content {
   display: flex;
@@ -160,39 +161,64 @@ body section .but-blue {
   height: 100vh;
 }
 
-.product {
-  margin: 0;
-  padding: 0;
+.product-content {
+  width: 100vw;
+  height: 500px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 40% 60%;
 }
-.product .product-content {
-  height: 80vh;
-  background-color: #ccc;
-}
-.product .product-content .product-content-text {
-  width: 60%;
-  height: 40%;
-  padding: 0 100px;
-  margin: 0 auto;
+
+.product-content-text {
+  grid-column-start: 1;
+  grid-column-end: 3;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
-  background-color: #FFF;
+  align-items: center;
+  gap: 20px;
 }
-.product .product-content .product-content-text .section-name {
+.product-content-text h3 {
+  padding-top: 15px;
+}
+.product-content-text p {
+  text-align: center;
+  max-width: 800px;
+}
+
+.techkend {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+}
+.techkend img {
+  max-width: 300px;
   padding-bottom: 30px;
 }
-.product .product-content .product-brands {
-  height: 60%;
+.techkend P {
+  max-width: 300px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.ecokend {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  background-color: aqua;
+  align-items: center;
 }
-.product .product-content .product-brands .techkend img {
-  width: 300px;
+.ecokend img {
+  max-width: 230px;
+  padding-bottom: 30px;
+  margin-top: -40px;
 }
-.product .product-content .product-brands .ecokend img {
-  width: 280px;
+.ecokend P {
+  max-width: 300px;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
