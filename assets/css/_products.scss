@@ -42,6 +42,9 @@
             text-align: center;
             padding-bottom: 10px;
         }
+        .button{         
+            max-width: 350px;
+        }
     }
 
     .ecokend {
@@ -60,5 +63,9 @@
             max-width: 300px;
             text-align: center;
             padding-bottom: 10px;
+        }
+        .button{
+            background-color: $green;
+            max-width: 350px;
         }
     }

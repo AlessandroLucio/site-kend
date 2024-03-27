@@ -3,30 +3,24 @@
     height: calc(100vh - 160px);
 
     .top-image {
-
-        // background-image: url("/assets/images/aerea_fabri.jpeg");
-        // background-repeat: no-repeat;
-        // background-position: center;
-        // background-size: cover;
         img {
             width: 100vw;
-            height: 40vh;
+            height: 38vh;
             object-fit: cover;            
         }
-
     }
 
     .home-content {
         display: flex;
-        align-items: center;
+        align-items: center;        
         padding: 0;
         width: 100vw;
         height: 50%;
 
-
         .home-content_text {
             max-width: 50%;
             padding-right: 100px;
+            
         }
 
         .home-content_but {

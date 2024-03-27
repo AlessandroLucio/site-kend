@@ -114,7 +114,7 @@ body section .but-blue {
 }
 .home .top-image img {
   width: 100vw;
-  height: 40vh;
+  height: 38vh;
   object-fit: cover;
 }
 .home .home-content {
@@ -203,6 +203,9 @@ body section .but-blue {
   text-align: center;
   padding-bottom: 10px;
 }
+.techkend .button {
+  max-width: 350px;
+}
 
 .ecokend {
   display: flex;
@@ -219,6 +222,10 @@ body section .but-blue {
   max-width: 300px;
   text-align: center;
   padding-bottom: 10px;
+}
+.ecokend .button {
+  background-color: #26A53C;
+  max-width: 350px;
 }
 
 /*# sourceMappingURL=main.css.map */
