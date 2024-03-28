@@ -1,18 +1,47 @@
 .factory {
-
+    margin: 0;
 
     .factory-content {
+        width: 100vw;
         height: 100vh;
         display: flex;
 
         .factory-content-images {
-            width: 60%;
+            width: 56%;
             height: 100%;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+
+            .img-content {
+                width: 300px;
+                height: 470px;
+                background-color: #F0F0F0;
+                border-radius: 10px;
+
+                .img-content-text {
+                    height: 140px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+
+                    span,
+                    p {
+                        font-size: 14px;
+                        padding-left: 35px;
+                        padding-right: 35px;
+                        margin: 0;
+                    }
+                }
+            }
         }
 
         .factory-content-text {
             width: 45%;
-            height: 100vh;
+            height: 100%;
             position: absolute;
             right: 0;
             display: flex;
@@ -23,7 +52,7 @@
 
 
             p {
-                padding-right:30px;
+                padding-right: 30px;
                 line-height: 24px;
             }
 
